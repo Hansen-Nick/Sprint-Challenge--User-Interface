@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+header nav a {
+    margin: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.content-side-by-side {
+    display: flex;
+    margin: 30px 15px 20px 15px;
+    justify-content: space-between;
+}
+
+.bottom-side-by-side {
+    margin-top: 70px;
+}
+
+.heading-text {
+    padding: 0 15px 25px 15px;
+    border-bottom: 2px dotted black;
+}
+
+.header-pic {
+    margin-bottom: 15px;
+}
+
+.pic-and-info {
+    width: 48%;
+    border-bottom: 2px dotted black;
+    padding-bottom: 30px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: black;
+    padding: 7px 18px 7px 18px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.bottom-space {
+    margin-bottom: 30px
+}
+
+.bottom-content {
+    margin: 55px 15px 45px 15px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+footer nav a:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
